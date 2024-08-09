@@ -17,14 +17,14 @@ function findIndexOf(str, target) {
   console.log("Original String:", str);
   console.log("Index:", str.indexOf(target));
 }
-findIndexOf("Hello World", "World");
+findIndexOf("Hello World", "d");
 
 // lastIndexOf
 function findLastIndexOf(str, target) {
   console.log("Original String:", str);
   console.log("Index:", str.lastIndexOf(target));
 }
-findLastIndexOf("Hello World World", "World");
+findLastIndexOf("Hello World World", "d");
 
 // slice
 function getSlice(str, start, end) {
